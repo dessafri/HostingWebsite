@@ -1,0 +1,668 @@
+html {
+    overflow-x: hidden;
+    text-decoration: none;
+    border: none;
+    height: 100%;
+}
+
+a:hover {
+    color: #707070 !important;
+}
+
+@media (min-width: 550px) {
+    nav {
+        position: relative;
+        z-index: 999999;
+    }
+    .jumbotron {
+        height: 1950px;
+        margin-top: -350px;
+        background-color: #1F08A2 !important;
+    }
+    .gambar-jumbo {
+        position: absolute;
+        z-index: 9999;
+        top: 0px;
+        height: 400px;
+        width: 100%;
+    }
+    .display-4 {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        z-index: 99999;
+        top: 340px;
+        left: 15px;
+        font-size: 36px !important;
+    }
+    .lead {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        z-index: 99999;
+        top: 340px;
+        left: 15px;
+        font-size: 15px !important;
+    }
+    .gambar-rumah {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 250px;
+        margin-bottom: 100px;
+    }
+    .tombol-buy {
+        position: relative;
+        z-index: 99999;
+        width: 120px;
+        height: 40px;
+        left: 15px;
+        top: -160px;
+        border-radius: 40px !important;
+        background-color: #D55E54 !important;
+        font-weight: bold !important;
+        color: white !important;
+        font-size: 12px !important;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    .title-cari-domain {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .search {
+        width: 350px;
+        position: relative;
+        height: 30px;
+        padding: 20px;
+        border-radius: 50px;
+        margin-left: 80px;
+        color: black !important;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    .tombol-search {
+        position: relative;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 50px;
+        top: -40px;
+        left: 312px;
+        background: rgb(255, 129, 216);
+        background: linear-gradient(137deg, rgba(255, 129, 216, 1) 18%, rgba(31, 8, 162, 1) 100%);
+        font-weight: bold !important;
+    }
+    .daftarDomain {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        color: white !important;
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 12px !important;
+    }
+    .daftarDomain:hover {
+        text-decoration: none;
+        color: rgb(255, 129, 216) !important;
+    }
+    .fitur,
+    .fitur1,
+    .fitur2 {
+        z-index: 999999999;
+        width: 350px;
+        height: 250px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    .fitur img,
+    .fitur1 img,
+    .fitur2 img {
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    .fitur h5,
+    .fitur1 h5,
+    .fitur2 h5 {
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .fitur p,
+    .fitur1 p,
+    .fitur2 p {
+        margin-left: 30px;
+    }
+    .fitur1,
+    .fitur2 {
+        margin-top: 40px;
+    }
+    .hosting img {
+        width: 100%;
+        position: relative;
+        z-index: 9999999;
+        height: 650px;
+        margin-top: -520px;
+    }
+    .hosting h1 {
+        font-family: sans-serif;
+        font-size: 25px;
+        position: relative;
+        z-index: 99999999;
+        top: -10px;
+        margin-left: 10px;
+    }
+    .hosting p {
+        position: relative;
+        margin-top: 50px;
+        z-index: 999999999999999;
+    }
+    .hosting .tombol {
+        position: relative;
+        z-index: 999999999999999;
+        width: 120px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        opacity: 0.6;
+        background-color: #707070;
+        text-align: center;
+        padding: 10px;
+        top: 30px;
+        margin-left: 10px;
+    }
+    .hosting .tombol:hover {
+        opacity: 1;
+    }
+    .services {
+        height: 1000px;
+        background-color: white;
+    }
+    .services h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: lighter;
+    }
+    .services p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 90px;
+    }
+    .services .container .service {
+        width: 350px;
+        height: 260px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .services .container .service img {
+        width: 80px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .services .container .service h1 {
+        font-size: 25px;
+        font-weight: lighter;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .services-2 {
+        height: 800px;
+        margin-top: 1000px;
+        background: rgb(107, 36, 130);
+        background: linear-gradient(137deg, rgba(107, 36, 130, 1) 0%, rgba(10, 30, 137, 1) 100%);
+        color: white !important;
+    }
+    .services-2 .container h1 {
+        margin-top: 60px;
+        font-size: 40px !important;
+        font-weight: lighter !important;
+    }
+    .services-2 .container p {
+        position: relative;
+        font-weight: lighter !important;
+        margin-left: 0px;
+    }
+    .services-2 .container ul li {
+        list-style-type: none;
+        margin: 15px 0;
+    }
+    .services-2 .contain er ul li span i {
+        margin-right: 10px;
+    }
+    .services-2 .container ul a {
+        color: white !important;
+    }
+    .services-2 .container a:hover {
+        text-decoration: none;
+        color: #707070 !important;
+    }
+    /* plan */
+    .plan {
+        width: 100%;
+        background-image: url("../img/Group\ 10628.png");
+        background-repeat: no-repeat;
+        background-size: 100% 2000px;
+        height: 2000px;
+    }
+    .plan h1 {
+        font-size: 35px !important;
+        padding-top: 50px;
+    }
+    .plan .row .container {
+        display: block;
+        margin-top: 50px;
+        width: 350px;
+        height: 550px;
+        z-index: 99;
+        background-color: white;
+        border-radius: 25px 25px 200px 25px;
+    }
+    .plan .row .container h1 {
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px !important;
+        color: #707070;
+        opacity: .8;
+    }
+    .plan .row .container h2 {
+        font-size: 60px;
+        padding-top: 20px;
+        opacity: .8;
+        font-weight: lighter !important;
+    }
+    .plan .row .container h3 {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold !important;
+        font-size: 15px;
+        opacity: .5;
+        padding-left: 90px;
+        margin-top: -80px;
+    }
+    .plan .row .container ul {
+        margin-top: 100px;
+        margin-left: -20px;
+    }
+    .plan .row .container ul li {
+        font-family: 'Poppins', sans-serif;
+        list-style-type: none;
+        padding-bottom: 20px;
+        font-size: 17px !important;
+        color: #707070;
+    }
+    .plan .row .container span {
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+    .plan .row .contain {
+        display: block;
+        width: 350px;
+        height: 400px;
+        margin: auto;
+        margin-top: -400px;
+        background-color: #8E55E4;
+        border-radius: 25px;
+    }
+    .plan .row .contain.Advance2 {
+        background-color: #69C0E5;
+    }
+    .plan .row .contain.Professional2 {
+        background-color: #65E895;
+    }
+    .plan .row .contain a {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 380px;
+        padding-left: 120px;
+        transform: rotate(-45deg)
+    }
+    .plan .row .contain a:hover {
+        color: white !important;
+        text-decoration: none;
+        opacity: .5;
+    }
+    /* akhirplan */
+    /* footer */
+    .footer {
+        background-color: #1B1543;
+        height: 900px;
+        top: -3252px;
+    }
+    .footer .container h1 {
+        top: 30px;
+        font-size: 20px !important;
+    }
+    .footer .container p {
+        top: 30px;
+        font-weight: bold;
+    }
+    .footer .container .row span {
+        margin-top: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .footer .container .row ul a {
+        display: inline-block;
+        list-style-type: none;
+        padding-bottom: 5px;
+    }
+    .footer .container .row ul a:hover {
+        text-decoration: none;
+    }
+    .input-group {
+        margin-top: 15px;
+    }
+    .footer .container hr {
+        background-color: #707070;
+    }
+    .footer .container p.copyright {
+        font-size: 12px;
+        margin-top: -30px;
+    }
+    .footer .container p.policy {
+        font-size: 12px;
+        margin-top: -30px;
+        right: -100px;
+    }
+    .footer .container p.policy a:hover {
+        text-decoration: none;
+    }
+    /* akhir footer */
+}
+
+
+/* animasi */
+
+.kotak {
+    opacity: 0;
+    transition: 1s;
+    margin-left: 20px;
+}
+
+.kotakMuncul {
+    opacity: 1;
+    margin-left: 80px;
+}
+
+.gambar-rumah {
+    opacity: 0;
+    transition: 1s;
+    margin-left: 350px;
+}
+
+.gambar-rumahMuncul {
+    opacity: 1;
+    margin-left: 250px;
+}
+
+
+/* akhir animasi */
+
+
+/* DEKSTOP VERSION */
+
+@media (min-width: 992px) {
+    html {
+        height: fit-content;
+    }
+    nav {
+        z-index: 9999;
+    }
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    .jumbotron {
+        height: 1450px;
+        margin-top: -95px;
+        background-color: #1F08A2 !important;
+    }
+    .display-4 {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        z-index: 9999;
+        top: 100px;
+        font-size: 43px !important;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.5)
+    }
+    .lead {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        z-index: 9999;
+        margin-top: -50px;
+        margin-left: -380px;
+        font-size: 15px !important;
+        text-shadow: 4px 2px rgba(0, 0, 0, 0.5)
+    }
+    .gambar-rumah {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        margin-top: -150px;
+        margin-left: 650px;
+        opacity: 0;
+    }
+    .gambar-jumbo {
+        z-index: 999;
+        width: 100%;
+        height: 800px;
+        margin-top: -100px;
+    }
+    .tombol-buy {
+        position: relative;
+        width: 150px !important;
+        height: 50px;
+        z-index: 9999;
+        margin-top: -300px;
+        background-color: #D55E54 !important;
+        border-radius: 40px !important;
+        font-weight: bold !important;
+        color: white !important;
+    }
+    .title-cari-domain {
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        z-index: 999999;
+        font-size: 40px !important;
+        margin-top: -170px;
+        margin-left: 350px;
+        font-size: 43px;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.5)
+    }
+    .search {
+        position: relative;
+        border: none;
+        z-index: 999999;
+        width: 600px;
+        height: 50px;
+        top: 40px;
+        left: 150px;
+        border-radius: 40px;
+        padding: 30px;
+    }
+    .tombol-search {
+        position: relative;
+        z-index: 9999999;
+        width: 150px;
+        height: 60px;
+        border: none;
+        left: 0px;
+        top: 40px;
+        border-radius: 40px;
+        font-weight: bold !important;
+        background: rgb(255, 129, 216);
+        background: linear-gradient(137deg, rgba(255, 129, 216, 1) 18%, rgba(31, 8, 162, 1) 100%);
+    }
+    .daftarDomain {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block !important;
+        text-transform: uppercase;
+        top: 90px;
+        color: white !important;
+        font-size: 15px !important;
+    }
+    .daftarDomain:hover {
+        text-decoration: none;
+        color: rgb(255, 129, 216) !important;
+    }
+    .fitur,
+    .fitur1,
+    .fitur2 {
+        position: relative;
+        display: inline-block;
+        width: 350px;
+        height: 250px;
+        top: 90px;
+        background-color: white;
+        border-radius: 30px;
+        left: -90px;
+        margin-right: -65px;
+    }
+    .gambar-rumahMuncul {
+        opacity: 1;
+        margin-left: 450px;
+    }
+    .hosting h1,
+    .hosting p,
+    .hosting button {
+        margin-left: -20px;
+    }
+    .hosting img {
+        margin-top: -450px;
+    }
+    .hosting h1 {
+        top: 40px;
+        font-size: 40px;
+        margin-left: -10px;
+    }
+    .hosting p {
+        top: 50px;
+    }
+    .hosting button {
+        margin-top: 80px;
+        left: -20px;
+    }
+    .gambar img {
+        z-index: -999999;
+    }
+    .hosting .gambarKecil {
+        position: relative;
+        width: 484px !important;
+        height: 322px !important;
+        opacity: 1;
+        z-index: 99999999;
+        right: -650px;
+        top: 35px;
+        opacity: 1;
+        transition: 3s;
+    }
+    .services {
+        height: 0px;
+    }
+    .services .container .service {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .services .container .service img,
+    .services .container .service h1 {
+        margin-left: 0px;
+        text-align: left;
+    }
+    .services-2 {
+        height: 1300px;
+    }
+    .services-2 .container p.awal {
+        margin-top: -200px;
+    }
+    .services-2 .container ul.awal {
+        margin-top: -120px;
+    }
+    .services-2 .container img {
+        position: relative;
+        z-index: 9999999999;
+        width: 300px;
+        height: 417px;
+        right: -230px;
+        top: 40px;
+    }
+    .services-2 .container img.gambar2 {
+        width: 30px;
+        height: 550px;
+        left: 0px;
+        top: 90px;
+    }
+    .services-2 .container p.akhir {
+        right: -570px;
+        top: -330px;
+    }
+    .services-2 .container ul.akhir {
+        right: -570px;
+        top: -340px;
+    }
+    .services-2 .container h1 {
+        margin-top: 150px;
+    }
+    .plan {
+        position: relative;
+        background-size: 100% 800px;
+        height: 800px;
+    }
+    .plan .row .contain.Basic2,
+    .plan .row .contain.Advance2,
+    .plan .row .contain.Professional2 {
+        position: absolute;
+    }
+    .plan .row .contain.Basic2 {
+        left: 198px;
+        top: 740px;
+    }
+    .plan .row .contain.Advance2 {
+        left: 580px;
+        top: 740px;
+    }
+    .plan .row .contain.Professional2 {
+        right: 198px;
+        top: 740px;
+    }
+    .footer {
+        height: 450px;
+    }
+    .footer .container .row span.margin {
+        left: 15px;
+    }
+    .footer .container .row span.Account,
+    .footer .container .row span.News,
+    .footer .container .row span.QuickLines {
+        left: 68px;
+    }
+    .footer .container .row span.QuickLines {
+        left: 48px;
+    }
+    .footer .container .row ul.margin {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footer .container hr {
+        background-color: #707070;
+    }
+    .footer .container p.policy {
+        font-size: 12px;
+        right: -455px;
+    }
+    .footer .container p.policy a:hover {
+        text-decoration: none;
+    }
+}
